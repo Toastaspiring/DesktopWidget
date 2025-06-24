@@ -1,0 +1,20 @@
+<local:BaseWidgetWindow x:Class="DeskWidgetX.Widgets.SpotifyWidget"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:DeskWidgetX.Widgets"
+    Title="SpotifyWidget" Height="80" Width="200">
+    <Border Style="{StaticResource WidgetBorder}">
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+            <Image x:Name="AlbumArt" Width="60" Height="60" Margin="0,0,8,0"/>
+            <StackPanel>
+                <TextBlock x:Name="SongText" FontFamily="Segoe UI" Foreground="White"/>
+                <TextBlock x:Name="ArtistText" FontFamily="Segoe UI" Foreground="White" FontSize="12"/>
+                <StackPanel Orientation="Horizontal" Margin="0,4,0,0">
+                    <Button x:Name="PrevButton" Content="⏮" Width="24" Margin="0,0,4,0"/>
+                    <Button x:Name="PlayPauseButton" Content="⏯" Width="24" Margin="0,0,4,0"/>
+                    <Button x:Name="NextButton" Content="⏭" Width="24" />
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </Border>
+</local:BaseWidgetWindow>

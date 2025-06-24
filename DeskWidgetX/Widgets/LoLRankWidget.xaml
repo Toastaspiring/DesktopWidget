@@ -1,0 +1,12 @@
+<local:BaseWidgetWindow x:Class="DeskWidgetX.Widgets.LoLRankWidget"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:DeskWidgetX.Widgets"
+    Title="LoLRankWidget" Height="80" Width="200">
+    <Border Style="{StaticResource WidgetBorder}">
+        <StackPanel>
+            <TextBlock Text="LoL Rank" FontFamily="Segoe UI" Foreground="White" FontWeight="Bold"/>
+            <TextBlock x:Name="ValueText" Text="Unranked" FontFamily="Segoe UI" Foreground="White"/>
+        </StackPanel>
+    </Border>
+</local:BaseWidgetWindow>
