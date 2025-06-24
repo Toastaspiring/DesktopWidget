@@ -1,0 +1,15 @@
+{
+  "Spotify": {
+    "ClientId": "",
+    "ClientSecret": "",
+    "RefreshToken": ""
+  },
+  "Riot": {
+    "ApiKey": "",
+    "SummonerName": "",
+    "Region": "na1"
+  },
+  "Widgets": {
+    "ClickThrough": false
+  }
+}

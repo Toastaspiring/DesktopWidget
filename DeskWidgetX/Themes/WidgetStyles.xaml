@@ -1,0 +1,13 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <SolidColorBrush x:Key="WidgetBackground" Color="#CC111111" />
+  <Style TargetType="Border" x:Key="WidgetBorder">
+    <Setter Property="CornerRadius" Value="12" />
+    <Setter Property="Background" Value="{StaticResource WidgetBackground}" />
+    <Setter Property="Padding" Value="8" />
+    <Setter Property="Effect">
+      <Setter.Value>
+        <DropShadowEffect Color="Black" Opacity="0.5" BlurRadius="10" />
+      </Setter.Value>
+    </Setter>
+  </Style>
+</ResourceDictionary>
